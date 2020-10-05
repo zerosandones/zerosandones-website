@@ -46,7 +46,7 @@ task("processStyles", () => {
 task("startServer", () => {
   browserSync.init({
     files: [SITE_ROOT + "/**"],
-    open: "local",
+    open: false,
     port: 4000,
     server: {
       baseDir: SITE_ROOT,
