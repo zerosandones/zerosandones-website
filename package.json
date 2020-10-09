@@ -21,6 +21,7 @@
     "build:dev": "cross-env NODE_ENV=development gulp",
     "build": "npm run build:production",
     "dev": "cross-env NODE_ENV=development gulp serve",
+    "firebase": "firebase emulators:start",
     "start": "npm run dev"
   },
   "repository": {
